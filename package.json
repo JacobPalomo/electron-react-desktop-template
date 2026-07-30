@@ -7,5 +7,12 @@
   "packageManager": "pnpm@11.18.0",
   "engines": {
     "node": ">=24.18.0 <25.0.0"
+  },
+  "scripts": {
+    "format": "pnpm --filter './apps/desktop' format",
+    "lint": "pnpm --filter './apps/desktop' lint",
+    "typecheck": "pnpm --filter './apps/desktop' typecheck",
+    "build": "pnpm --filter './apps/desktop' build",
+    "build:unpack": "pnpm --filter './apps/desktop' build:unpack"
   }
 }
