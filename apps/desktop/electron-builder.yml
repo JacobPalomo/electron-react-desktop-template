@@ -1,5 +1,5 @@
-appId: com.jacobpalomo.afila
-productName: Afila
+appId: com.example.desktopapp
+productName: Desktop App
 directories:
   buildResources: build
 files:

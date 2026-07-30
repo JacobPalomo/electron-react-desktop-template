@@ -1,30 +1,54 @@
-# .afila
+# Electron React Desktop Template
 
-`.afila` is a local desktop application for practicing programming through
-daily challenges, immediate feedback, and iterative problem solving.
+A reusable foundation for building secure desktop applications with Electron,
+React, TypeScript, Vite, and pnpm.
 
-## Status
+## Included
 
-The project is currently in the initial MVP development stage.
+- Electron main, preload, and renderer processes
+- React with TypeScript
+- Vite Fast Refresh
+- ESLint and Prettier
+- Context isolation and renderer sandboxing
+- electron-builder configuration
+- Local macOS packaging
 
 ## Requirements
 
 - Node.js 24
-- pnpm 10
+- pnpm 11
 
-## Repository structure
+## Install
 
-```text
-apps/       Executable applications
-packages/   Shared internal packages
-content/    Bundled exercise content
-docs/       Architecture and technical decisions
+```bash
+pnpm install
 ```
 
 ## Development
 
-This repository uses pnpm workspaces. Development commands will be added as the desktop application and internal packages are created.
+```bash
+pnpm --filter @electron-react-template/desktop dev
+```
+
+## Validation
+
+```bash
+pnpm --filter @electron-react-template/desktop lint
+pnpm --filter @electron-react-template/desktop typecheck
+pnpm --filter @electron-react-template/desktop build
+```
+
+## Local macOS package
+
+```bash
+pnpm --filter @electron-react-template/desktop build:unpack
+```
+
+## Using this template
+
+After creating a repository from this template, follow
+[TEMPLATE_SETUP.md](./TEMPLATE_SETUP.md) to customize the application identity.
 
 ## License
 
-MIT License. See [LICENSE](LICENSE) for details.
+MIT License. See [LICENSE](./LICENSE).

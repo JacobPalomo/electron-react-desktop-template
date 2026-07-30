@@ -1,8 +1,8 @@
 {
-  "name": "afila",
+  "name": "electron-react-desktop-template",
   "version": "0.0.0",
   "private": true,
-  "description": "A local desktop app for daily programming challenges.",
+  "description": "A reusable Electron, React, and TypeScript desktop application template.",
   "license": "MIT",
   "packageManager": "pnpm@11.18.0",
   "engines": {
