@@ -1,7 +1,7 @@
 {
-  "name": "@afila/desktop",
+  "name": "@electron-react-template/desktop",
   "version": "0.0.0",
-  "description": "The desktop application for .afila.",
+  "description": "Desktop application package for the Electron React template.",
   "author": "Jacob N. Palomo Martínez",
   "main": "./out/main/index.js",
   "scripts": {

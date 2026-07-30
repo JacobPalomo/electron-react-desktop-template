@@ -1,8 +1,8 @@
-type AfilaAPI = Record<string, never>
+type DesktopAPI = Record<string, never>
 
 declare global {
   interface Window {
-    api: AfilaAPI
+    api: DesktopAPI
   }
 }
 

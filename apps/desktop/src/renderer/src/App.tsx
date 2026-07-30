@@ -1,8 +1,8 @@
 function App(): React.JSX.Element {
   return (
     <main>
-      <h1>.afila</h1>
-      <p>Práctica diaria de programación</p>
+      <h1>Desktop App</h1>
+      <p>Electron, React and TypeScript</p>
     </main>
   )
 }
