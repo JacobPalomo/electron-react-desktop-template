@@ -22,6 +22,13 @@ Complete these steps after creating a repository from this template.
 - [ ] Review Linux package metadata.
 - [ ] Define the initial application version.
 
+## Repository automation
+
+- [ ] Grant the Mend Renovate GitHub App access to the repository.
+- [ ] Review `.github/renovate.json`.
+- [ ] Confirm that the Renovate Dependency Dashboard is created.
+- [ ] Review major dependency updates before approving them.
+
 ## Verification
 
 ```bash
