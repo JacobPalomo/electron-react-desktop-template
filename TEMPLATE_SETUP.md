@@ -33,8 +33,10 @@ Complete these steps after creating a repository from this template.
 
 ```bash
 pnpm install --frozen-lockfile
-pnpm --filter @electron-react-template/desktop lint
-pnpm --filter @electron-react-template/desktop typecheck
-pnpm --filter @electron-react-template/desktop build
-pnpm --filter @electron-react-template/desktop build:unpack
+pnpm verify:electron
+pnpm lint
+pnpm typecheck
+pnpm build
+pnpm build:unpack
+pnpm dev
 ```

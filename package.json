@@ -13,6 +13,8 @@
     "lint": "pnpm --filter './apps/desktop' lint",
     "typecheck": "pnpm --filter './apps/desktop' typecheck",
     "build": "pnpm --filter './apps/desktop' build",
-    "build:unpack": "pnpm --filter './apps/desktop' build:unpack"
+    "build:unpack": "pnpm --filter './apps/desktop' build:unpack",
+    "dev": "pnpm --filter './apps/desktop' dev",
+    "verify:electron": "pnpm --filter './apps/desktop' exec node -p \"require('electron')\""
   }
 }
