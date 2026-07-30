@@ -27,21 +27,22 @@ pnpm install
 ## Development
 
 ```bash
-pnpm --filter @electron-react-template/desktop dev
+pnpm dev
 ```
 
 ## Validation
 
 ```bash
-pnpm --filter @electron-react-template/desktop lint
-pnpm --filter @electron-react-template/desktop typecheck
-pnpm --filter @electron-react-template/desktop build
+pnpm verify:electron
+pnpm lint
+pnpm typecheck
+pnpm build
 ```
 
 ## Local macOS package
 
 ```bash
-pnpm --filter @electron-react-template/desktop build:unpack
+pnpm build:unpack
 ```
 
 ## Using this template
